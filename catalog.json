@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {"id": "automation", "name": "Workflow automation engines", "why": "The glue: connect your apps, schedule jobs, add AI steps. Start here if you want to automate across tools."},
+    {"id": "ai", "name": "AI assistants and agent builders", "why": "Private assistants over your own documents, and visual builders for AI workflows."},
+    {"id": "finance", "name": "Finance, invoicing and accounting", "why": "Quote-to-cash and bookkeeping without per-seat fees."},
+    {"id": "erp", "name": "All-in-one ERP", "why": "One system for sales, purchasing, stock, accounting and HR. Bigger setup, biggest payoff."},
+    {"id": "documents", "name": "Documents, PDFs and e-signature", "why": "Paperless back office: capture, file, search and sign."},
+    {"id": "sales", "name": "CRM, sales and marketing", "why": "Leads to customers: pipelines, campaigns, newsletters, booking."},
+    {"id": "support", "name": "Customer support", "why": "One inbox for chat, email and messaging, with tickets and SLAs."},
+    {"id": "ops", "name": "Inventory, warehouse and supply chain", "why": "Stock, purchasing and planning for companies that move physical goods."},
+    {"id": "people", "name": "HR, time and projects", "why": "People operations and delivery tracking."},
+    {"id": "data", "name": "Data, dashboards and internal tools", "why": "See the numbers and build simple internal apps on top of them."}
+  ],
+  "tools": [
+    {"repo": "n8n-io/n8n", "name": "n8n", "cat": "automation", "runs": "Visual workflows across hundreds of apps, with schedules, webhooks and AI agent steps", "ai": true, "replaces": "Zapier, Make"},
+    {"repo": "activepieces/activepieces", "name": "Activepieces", "cat": "automation", "runs": "No-code automation flows with AI agents and MCP servers", "ai": true, "replaces": "Zapier"},
+    {"repo": "windmill-labs/windmill", "name": "Windmill", "cat": "automation", "runs": "Turns scripts into scheduled workflows, internal apps and AI agents", "ai": true, "replaces": "Retool Workflows, Airflow"},
+    {"repo": "huginn/huginn", "name": "Huginn", "cat": "automation", "runs": "Agents that watch websites, feeds and inboxes and act when something changes", "ai": false, "replaces": "IFTTT"},
+    {"repo": "node-red/node-red", "name": "Node-RED", "cat": "automation", "runs": "Event-driven flows for devices, APIs and alerts", "ai": false, "replaces": "Custom integration scripts"},
+
+    {"repo": "open-webui/open-webui", "name": "Open WebUI", "cat": "ai", "runs": "A private ChatGPT-style assistant on local (Ollama) or hosted models, with document chat", "ai": true, "replaces": "ChatGPT Team"},
+    {"repo": "Mintplex-Labs/anything-llm", "name": "AnythingLLM", "cat": "ai", "runs": "A private assistant that answers from your company documents, with agents", "ai": true, "replaces": "ChatGPT Enterprise knowledge base"},
+    {"repo": "langgenius/dify", "name": "Dify", "cat": "ai", "runs": "Build AI assistants, RAG pipelines and agent workflows, then publish them as apps or APIs", "ai": true, "replaces": "Custom GPTs, Copilot Studio"},
+    {"repo": "langflow-ai/langflow", "name": "Langflow", "cat": "ai", "runs": "Visual builder for AI agents and workflows, deployable as APIs", "ai": true, "replaces": "Custom AI development"},
+
+    {"repo": "invoiceninja/invoiceninja", "name": "Invoice Ninja", "cat": "finance", "runs": "Quotes, invoices, recurring billing, online payments, projects and time tracking", "ai": false, "replaces": "FreshBooks, Zoho Invoice"},
+    {"repo": "akaunting/akaunting", "name": "Akaunting", "cat": "finance", "runs": "Online accounting: invoices, bills, banking and financial reports", "ai": false, "replaces": "QuickBooks Online, Xero"},
+    {"repo": "bigcapitalhq/bigcapital", "name": "Bigcapital", "cat": "finance", "runs": "Double-entry accounting with inventory tracking and financial reporting", "ai": false, "replaces": "QuickBooks"},
+
+    {"repo": "frappe/erpnext", "name": "ERPNext", "cat": "erp", "runs": "Full ERP: CRM, selling, buying, stock, manufacturing, accounting, projects", "ai": false, "replaces": "NetSuite, SAP Business One"},
+    {"repo": "odoo/odoo", "name": "Odoo (Community)", "cat": "erp", "runs": "Modular business apps: CRM, sales, purchase, inventory, accounting, website", "ai": false, "replaces": "NetSuite, Microsoft Dynamics"},
+    {"repo": "Dolibarr/dolibarr", "name": "Dolibarr", "cat": "erp", "runs": "ERP and CRM for small companies: proposals, orders, invoices, stock, projects", "ai": false, "replaces": "Zoho One"},
+
+    {"repo": "paperless-ngx/paperless-ngx", "name": "Paperless-ngx", "cat": "documents", "runs": "Scan, OCR, tag and archive every document so it is searchable", "ai": false, "replaces": "Filing cabinets, Dropbox folders"},
+    {"repo": "clusterzx/paperless-ai", "name": "Paperless-AI", "cat": "documents", "runs": "AI that titles, tags and files documents in Paperless-ngx, with chat over the archive", "ai": true, "replaces": "Manual document filing"},
+    {"repo": "docusealco/docuseal", "name": "DocuSeal", "cat": "documents", "runs": "Create fillable forms and collect e-signatures", "ai": false, "replaces": "DocuSign"},
+    {"repo": "documenso/documenso", "name": "Documenso", "cat": "documents", "runs": "Send documents for e-signature with signing workflows", "ai": false, "replaces": "DocuSign"},
+    {"repo": "Stirling-Tools/Stirling-PDF", "name": "Stirling-PDF", "cat": "documents", "runs": "Merge, split, convert, OCR and edit PDFs in the browser", "ai": false, "replaces": "Adobe Acrobat"},
+
+    {"repo": "twentyhq/twenty", "name": "Twenty", "cat": "sales", "runs": "Modern CRM with pipelines, an API and workflow automation", "ai": true, "replaces": "Salesforce, HubSpot CRM"},
+    {"repo": "espocrm/espocrm", "name": "EspoCRM", "cat": "sales", "runs": "CRM: leads, accounts, opportunities, email and workflows", "ai": false, "replaces": "Zoho CRM"},
+    {"repo": "krayin/laravel-crm", "name": "Krayin CRM", "cat": "sales", "runs": "Lead, pipeline and sales management", "ai": false, "replaces": "Pipedrive"},
+    {"repo": "mautic/mautic", "name": "Mautic", "cat": "sales", "runs": "Marketing automation: segments, campaigns, email and lead scoring", "ai": false, "replaces": "HubSpot Marketing, ActiveCampaign"},
+    {"repo": "knadh/listmonk", "name": "listmonk", "cat": "sales", "runs": "Newsletters and mailing lists with analytics", "ai": false, "replaces": "Mailchimp"},
+    {"repo": "calcom/cal.diy", "name": "Cal (cal.diy)", "cat": "sales", "runs": "Online booking pages and scheduling", "ai": false, "replaces": "Calendly"},
+    {"repo": "medusajs/medusa", "name": "Medusa", "cat": "sales", "runs": "Commerce engine: products, carts, orders and inventory", "ai": false, "replaces": "Shopify Plus (back end)"},
+
+    {"repo": "chatwoot/chatwoot", "name": "Chatwoot", "cat": "support", "runs": "One shared inbox for website chat, email and messaging channels, with AI assistance options", "ai": true, "replaces": "Intercom, Zendesk"},
+    {"repo": "zammad/zammad", "name": "Zammad", "cat": "support", "runs": "Helpdesk ticketing across email, chat, phone and social", "ai": false, "replaces": "Zendesk, Freshdesk"},
+    {"repo": "frappe/helpdesk", "name": "Helpdesk (Frappe)", "cat": "support", "runs": "Ticketing with SLAs and a knowledge base", "ai": false, "replaces": "Freshdesk"},
+
+    {"repo": "inventree/InvenTree", "name": "InvenTree", "cat": "ops", "runs": "Inventory, parts, stock locations, purchase and sales orders", "ai": false, "replaces": "Fishbowl, spreadsheets"},
+    {"repo": "frePPLe/frepple", "name": "frePPLe", "cat": "ops", "runs": "Demand forecasting, inventory planning and production planning", "ai": false, "replaces": "Kinaxis, o9 (planning)"},
+    {"repo": "openboxes/openboxes", "name": "OpenBoxes", "cat": "ops", "runs": "Warehouse and inventory management with stock movement tracking (built for health supply chains)", "ai": false, "replaces": "Entry-level WMS"},
+
+    {"repo": "frappe/hrms", "name": "Frappe HR", "cat": "people", "runs": "HR and payroll: leave, attendance, expenses, payroll", "ai": false, "replaces": "BambooHR, Gusto (HR side)"},
+    {"repo": "orangehrm/orangehrm", "name": "OrangeHRM", "cat": "people", "runs": "Employee records, leave, time and recruitment", "ai": false, "replaces": "BambooHR"},
+    {"repo": "kimai/kimai", "name": "Kimai", "cat": "people", "runs": "Time tracking and timesheets, with invoice exports", "ai": false, "replaces": "Harvest, Toggl"},
+    {"repo": "makeplane/plane", "name": "Plane", "cat": "people", "runs": "Projects, issues, cycles and docs", "ai": false, "replaces": "Jira, Asana, ClickUp"},
+
+    {"repo": "metabase/metabase", "name": "Metabase", "cat": "data", "runs": "Dashboards and questions on your business data, no SQL required", "ai": false, "replaces": "Tableau, Power BI (basic)"},
+    {"repo": "apache/superset", "name": "Apache Superset", "cat": "data", "runs": "BI dashboards and data exploration", "ai": false, "replaces": "Tableau, Looker"},
+    {"repo": "nocodb/nocodb", "name": "NocoDB", "cat": "data", "runs": "A spreadsheet-style database on top of your data, with an API", "ai": false, "replaces": "Airtable"},
+    {"repo": "appsmithorg/appsmith", "name": "Appsmith", "cat": "data", "runs": "Build admin panels, internal tools and dashboards on your databases and APIs", "ai": false, "replaces": "Retool"},
+    {"repo": "ToolJet/ToolJet", "name": "ToolJet", "cat": "data", "runs": "Build internal tools and workflows on your data", "ai": true, "replaces": "Retool"}
+  ],
+  "libraries": [
+    {"repo": "enescingoz/awesome-n8n-templates", "name": "awesome-n8n-templates", "note": "280+ ready-to-import n8n workflows (Gmail, Telegram, Slack, Discord...)."},
+    {"repo": "Zie619/n8n-workflows", "name": "n8n-workflows", "note": "Thousands of n8n workflows gathered from public sources, including n8n's own gallery. Check provenance before reuse."}
+  ],
+  "stacks": [
+    {"name": "Back office in a box", "for": "Service businesses drowning in invoices and paper", "tools": ["invoiceninja/invoiceninja", "paperless-ngx/paperless-ngx", "clusterzx/paperless-ai", "docusealco/docuseal", "n8n-io/n8n"],
+      "flow": "Quote and invoice clients in Invoice Ninja; every receipt, bill and contract is scanned into Paperless-ngx and auto-filed by Paperless-AI; contracts go out for signature through DocuSeal; n8n ties them together (for example, a signed contract creates the client and first invoice)."},
+    {"name": "Sales and support team", "for": "Teams that sell and serve customers online", "tools": ["twentyhq/twenty", "calcom/cal.diy", "chatwoot/chatwoot", "knadh/listmonk", "n8n-io/n8n"],
+      "flow": "Leads land in Twenty; prospects book calls through Cal; conversations from chat, email and messaging arrive in one Chatwoot inbox; listmonk sends the newsletter; n8n syncs contacts and logs conversations to the CRM."},
+    {"name": "Operations and inventory", "for": "Companies that buy, stock and ship physical goods", "tools": ["inventree/InvenTree", "frePPLe/frepple", "metabase/metabase", "n8n-io/n8n"],
+      "flow": "Track parts, stock and purchase orders in InvenTree (or run the whole business in ERPNext); plan demand and replenishment in frePPLe; watch stock, service level and spend in Metabase; n8n sends low-stock and late-order alerts."},
+    {"name": "Private AI for the whole company", "for": "Teams that want ChatGPT-style help without sending data out", "tools": ["open-webui/open-webui", "Mintplex-Labs/anything-llm", "langgenius/dify"],
+      "flow": "Run models locally with Ollama behind Open WebUI for everyday questions; load policies, price lists and manuals into AnythingLLM so staff get answers with sources; build specific assistants (quote drafting, ticket replies) in Dify."}
+  ]
+}

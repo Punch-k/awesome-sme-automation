@@ -1,0 +1,398 @@
+{
+ "n8n-io/n8n": {
+  "repo": "n8n-io/n8n",
+  "stars": 211558,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://n8n.io",
+  "cached": true
+ },
+ "activepieces/activepieces": {
+  "repo": "activepieces/activepieces",
+  "stars": 25652,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://www.activepieces.com",
+  "cached": true
+ },
+ "windmill-labs/windmill": {
+  "repo": "windmill-labs/windmill",
+  "stars": 18663,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://windmill.dev",
+  "cached": true
+ },
+ "huginn/huginn": {
+  "repo": "huginn/huginn",
+  "stars": 50601,
+  "license": "MIT",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://github.com/huginn/huginn",
+  "cached": true
+ },
+ "node-red/node-red": {
+  "repo": "node-red/node-red",
+  "stars": 23863,
+  "license": "Apache-2.0",
+  "pushed": "2026-11-17",
+  "archived": false,
+  "homepage": "http://nodered.org",
+  "cached": true
+ },
+ "open-webui/open-webui": {
+  "repo": "open-webui/open-webui",
+  "stars": 159182,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://openwebui.com",
+  "cached": true
+ },
+ "Mintplex-Labs/anything-llm": {
+  "repo": "Mintplex-Labs/anything-llm",
+  "stars": 68473,
+  "license": "MIT",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://anythingllm.com",
+  "cached": true
+ },
+ "langgenius/dify": {
+  "repo": "langgenius/dify",
+  "stars": 161589,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://dify.ai",
+  "cached": true
+ },
+ "langflow-ai/langflow": {
+  "repo": "langflow-ai/langflow",
+  "stars": 156814,
+  "license": "MIT",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "http://www.langflow.org",
+  "cached": true
+ },
+ "invoiceninja/invoiceninja": {
+  "repo": "invoiceninja/invoiceninja",
+  "stars": 10611,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://invoiceninja.com",
+  "cached": true
+ },
+ "akaunting/akaunting": {
+  "repo": "akaunting/akaunting",
+  "stars": 10326,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://akaunting.com",
+  "cached": true
+ },
+ "bigcapitalhq/bigcapital": {
+  "repo": "bigcapitalhq/bigcapital",
+  "stars": 4236,
+  "license": "AGPL-3.0",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://bigcapital.app",
+  "cached": true
+ },
+ "frappe/erpnext": {
+  "repo": "frappe/erpnext",
+  "stars": 41488,
+  "license": "GPL-3.0",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://frappe.io/erpnext",
+  "cached": true
+ },
+ "odoo/odoo": {
+  "repo": "odoo/odoo",
+  "stars": 55998,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://www.odoo.com",
+  "cached": true
+ },
+ "Dolibarr/dolibarr": {
+  "repo": "Dolibarr/dolibarr",
+  "stars": 7889,
+  "license": "GPL-3.0",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://www.dolibarr.org",
+  "cached": true
+ },
+ "paperless-ngx/paperless-ngx": {
+  "repo": "paperless-ngx/paperless-ngx",
+  "stars": 48414,
+  "license": "GPL-3.0",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "http://docs.paperless-ngx.com/",
+  "cached": true
+ },
+ "clusterzx/paperless-ai": {
+  "repo": "clusterzx/paperless-ai",
+  "stars": 6145,
+  "license": "MIT",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://clusterzx.github.io/paperless-ai/",
+  "cached": true
+ },
+ "docusealco/docuseal": {
+  "repo": "docusealco/docuseal",
+  "stars": 19110,
+  "license": "AGPL-3.0",
+  "pushed": "2026-11-19",
+  "archived": false,
+  "homepage": "https://www.docuseal.com",
+  "cached": true
+ },
+ "documenso/documenso": {
+  "repo": "documenso/documenso",
+  "stars": 15843,
+  "license": "AGPL-3.0",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://documenso.com",
+  "cached": true
+ },
+ "Stirling-Tools/Stirling-PDF": {
+  "repo": "Stirling-Tools/Stirling-PDF",
+  "stars": 97116,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://stirling.com",
+  "cached": true
+ },
+ "twentyhq/twenty": {
+  "repo": "twentyhq/twenty",
+  "stars": 61270,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://twenty.com",
+  "cached": true
+ },
+ "espocrm/espocrm": {
+  "repo": "espocrm/espocrm",
+  "stars": 3648,
+  "license": "AGPL-3.0",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://www.espocrm.com",
+  "cached": true
+ },
+ "krayin/laravel-crm": {
+  "repo": "krayin/laravel-crm",
+  "stars": 24189,
+  "license": "MIT",
+  "pushed": "2026-11-17",
+  "archived": false,
+  "homepage": "https://krayincrm.com",
+  "cached": true
+ },
+ "mautic/mautic": {
+  "repo": "mautic/mautic",
+  "stars": 11061,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://www.mautic.org",
+  "cached": true
+ },
+ "knadh/listmonk": {
+  "repo": "knadh/listmonk",
+  "stars": 24399,
+  "license": "AGPL-3.0",
+  "pushed": "2026-11-15",
+  "archived": false,
+  "homepage": "https://listmonk.app",
+  "cached": true
+ },
+ "calcom/cal.diy": {
+  "repo": "calcom/cal.diy",
+  "stars": 50269,
+  "license": "MIT",
+  "pushed": "2026-11-13",
+  "archived": false,
+  "homepage": "https://cal.diy",
+  "cached": true
+ },
+ "medusajs/medusa": {
+  "repo": "medusajs/medusa",
+  "stars": 37347,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://medusajs.com",
+  "cached": true
+ },
+ "chatwoot/chatwoot": {
+  "repo": "chatwoot/chatwoot",
+  "stars": 40269,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://www.chatwoot.com/help-center",
+  "cached": true
+ },
+ "zammad/zammad": {
+  "repo": "zammad/zammad",
+  "stars": 6132,
+  "license": "AGPL-3.0",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://zammad.org",
+  "cached": true
+ },
+ "frappe/helpdesk": {
+  "repo": "frappe/helpdesk",
+  "stars": 3507,
+  "license": "AGPL-3.0",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://frappe.io/helpdesk",
+  "cached": true
+ },
+ "inventree/InvenTree": {
+  "repo": "inventree/InvenTree",
+  "stars": 7887,
+  "license": "MIT",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://docs.inventree.org",
+  "cached": true
+ },
+ "frePPLe/frepple": {
+  "repo": "frePPLe/frepple",
+  "stars": 784,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://frepple.com",
+  "cached": true
+ },
+ "openboxes/openboxes": {
+  "repo": "openboxes/openboxes",
+  "stars": 934,
+  "license": "EPL-1.0",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://openboxes.com",
+  "cached": true
+ },
+ "frappe/hrms": {
+  "repo": "frappe/hrms",
+  "stars": 9090,
+  "license": "GPL-3.0",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://frappe.io/hr",
+  "cached": true
+ },
+ "orangehrm/orangehrm": {
+  "repo": "orangehrm/orangehrm",
+  "stars": 1161,
+  "license": "GPL-3.0",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://github.com/orangehrm/orangehrm",
+  "cached": true
+ },
+ "kimai/kimai": {
+  "repo": "kimai/kimai",
+  "stars": 5172,
+  "license": "AGPL-3.0",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://www.kimai.org",
+  "cached": true
+ },
+ "makeplane/plane": {
+  "repo": "makeplane/plane",
+  "stars": 62873,
+  "license": "AGPL-3.0",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "http://plane.so",
+  "cached": true
+ },
+ "metabase/metabase": {
+  "repo": "metabase/metabase",
+  "stars": 50456,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://metabase.com",
+  "cached": true
+ },
+ "apache/superset": {
+  "repo": "apache/superset",
+  "stars": 75598,
+  "license": "Apache-2.0",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://superset.apache.org/",
+  "cached": true
+ },
+ "nocodb/nocodb": {
+  "repo": "nocodb/nocodb",
+  "stars": 65593,
+  "license": "NOASSERTION",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://nocodb.com",
+  "cached": true
+ },
+ "appsmithorg/appsmith": {
+  "repo": "appsmithorg/appsmith",
+  "stars": 41284,
+  "license": "Apache-2.0",
+  "pushed": "2026-11-21",
+  "archived": false,
+  "homepage": "https://www.appsmith.com",
+  "cached": true
+ },
+ "ToolJet/ToolJet": {
+  "repo": "ToolJet/ToolJet",
+  "stars": 41267,
+  "license": "AGPL-3.0",
+  "pushed": "2026-11-20",
+  "archived": false,
+  "homepage": "https://tooljet.com",
+  "cached": true
+ },
+ "enescingoz/awesome-n8n-templates": {
+  "repo": "enescingoz/awesome-n8n-templates",
+  "stars": 26506,
+  "license": "NOASSERTION",
+  "pushed": "2026-09-12",
+  "archived": false,
+  "homepage": "https://n8n.partnerlinks.io/h1pwwf5m4toe",
+  "cached": true
+ },
+ "Zie619/n8n-workflows": {
+  "repo": "Zie619/n8n-workflows",
+  "stars": 57288,
+  "license": "MIT",
+  "pushed": "2026-06-24",
+  "archived": false,
+  "homepage": "https://github.com/Zie619/n8n-workflows",
+  "cached": true
+ }
+}
