@@ -96,7 +96,7 @@ Every tool listed:
 3. has its **licence shown**. "check terms" means the project uses a source-available, fair-code or custom licence: free to use for
    your own business in most cases, with limits on reselling or hosting it for others. Read it before you build a product on top.
 
-Stars and "Updated" are refreshed automatically every week by `scripts/build.py`.
+The **Status** column shows licence, GitHub stars, month of the last commit, and **AI** where the tool has built-in AI features. It is refreshed automatically every week by `scripts/build.py`.
 
 """)
     for c in cat["categories"]:
@@ -104,15 +104,16 @@ Stars and "Updated" are refreshed automatically every week by `scripts/build.py`
         if not tools:
             continue
         L.append(f"## {c['name']}\n\n{c['why']}\n\n")
-        L.append("| Tool | What it runs end to end | Use case | Advantages | Disadvantages | Replaces | AI | Licence | Stars | Updated |\n")
-        L.append("|---|---|---|---|---|---|---|---|---|---|\n")
+        L.append("| Tool | Use case | Advantages | Disadvantages | Replaces | Status |\n")
+        L.append("|---|---|---|---|---|---|\n")
         for t in sorted(tools, key=lambda x: -live[x["repo"]]["stars"]):
             m, n = live[t["repo"]], notes.get(t["repo"], {})
+            status = f"{lic(m['license'])}<br>★ {stars(m['stars'])}<br>{m['pushed'][:7]}" + ("<br>**AI**" if t["ai"] else "")
             L.append("| " + " | ".join([
-                link(t), cell(t["runs"]), cell(n.get("use", "")),
+                f"**{link(t)}**<br>{cell(t['runs'])}", cell(n.get("use", "")),
                 "<br>".join("+ " + cell(p) for p in n.get("pros", [])),
                 "<br>".join("− " + cell(p) for p in n.get("cons", [])),
-                cell(t["replaces"]), "Yes" if t["ai"] else "", lic(m["license"]), stars(m["stars"]), m["pushed"],
+                cell(t["replaces"]), status,
             ]) + " |\n")
         L.append("\n")
 
